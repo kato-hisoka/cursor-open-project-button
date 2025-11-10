@@ -1,0 +1,28 @@
+{
+    "name": "cursor-open-project-button",
+    "displayName": "Cursor Open Project Button",
+    "version": "0.0.1",
+    "publisher": "isuruworks",
+    "description": "Add a status bar button to open Project Manager list",
+    "engines": {
+      "vscode": "^1.90.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:kato-hisoka/cursor-open-project-button.git"
+    },
+    "activationEvents": [
+      "onStartupFinished",
+      "onCommand:cursor.openProjectManager"
+    ],
+    "main": "./src/extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "cursor.openProjectManager",
+          "title": "Open Project Manager"
+        }
+      ]
+    },
+    "dependencies": {}
+  }
