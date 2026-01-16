@@ -4,7 +4,7 @@
 
 ## 特徴
 
-- ステータスバーの左側に `$(folder-opened) Open Project` ボタンを表示します。
+- ステータスバーの左側に `Open Project` ボタンを表示します。
 - クリックすると、[Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) 拡張機能のプロジェクト一覧を呼び出します。
 - Project Manager がインストールされていない場合は、標準の「最近開いた項目」ウィンドウを代わりに開きます。
 
@@ -29,7 +29,7 @@ cursor --install-extension cursor-open-project-button-0.0.1.vsix
 
 ## 推奨環境
 
-この拡張機能を最大限に活用するには、以下の拡張機能のインストールを推奨します。
+以下の拡張機能のインストールが必須です。
 
 - **Project Manager**: お気に入りのプロジェクトを保存し、素早く切り替えることができるようになります。
 
